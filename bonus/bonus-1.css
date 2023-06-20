@@ -1,0 +1,102 @@
+:root {
+    --dark-red: #df1900;
+    --light-red: #f53100;
+    --white: #fff;
+    --black: #000000;
+    --orange: #ff7c2a;
+    --light-orange: #ffcc23;
+    --light-salmon: #feb485;
+    --light-yellow: #ffe29c;
+    --yellow: #fef423;
+    --green: #0cb800;
+    --light-green: #82e101;
+    --blue: #3b6afe;
+    --light-blue: #63bcff;
+    --purple: #8620d9;
+    --brown: #611f00;
+    --light-brown: #aa4d00;
+    --caramel: #db7b14;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    padding: 1rem 0 1rem 0;
+}
+
+[class*="col-"]{
+    min-height: 97.33px;
+}
+
+.dark-red{
+    background-color: var(--dark-red);
+}
+
+.light-red{
+    background-color: var(--light-red);
+}
+
+.white{
+    background-color: var(--white);
+}
+
+.black{
+    background-color: var(--black);
+}
+
+.orange{
+    background-color: var(--orange);
+}
+
+.light-orange{
+    background-color: var(--light-orange);
+}
+
+.light-salmon{
+    background-color: var(--light-salmon);
+}
+
+.light-yellow{
+    background-color: var(--light-yellow);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.green{
+    background-color: var(--green);
+}
+
+.light-green{
+    background-color: var(--light-green);
+}
+
+.blue{
+    background-color: var(--blue);
+}
+
+.light-blue{
+    background-color: var(--light-blue);
+}
+
+.purple{
+    background-color: var(--purple);
+}
+
+.brown{
+    background-color: var(--brown);
+}
+
+.light-brown{
+    background-color: var(--light-brown);
+}
+
+.caramel{
+    background-color: var(--caramel);
+}
